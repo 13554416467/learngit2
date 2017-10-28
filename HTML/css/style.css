@@ -1,0 +1,8 @@
+.box {
+    width: 30%;
+    padding-top: 30%; /*设置高度*/
+    background: orange;
+    float: right;
+    margin: 1.6%; /*边界*/
+    border-radius: 10px /*设置边框圆角*/
+     }

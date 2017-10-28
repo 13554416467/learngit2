@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>my name is hubing</title>
+    <style type="text/css">
+     table tr td,th{border:2px solid #000}
+     p{font-size:12px;/*设置字体字号为12px*/color:red;font-weight:bold;}
+        .first>li{border:1px solid red}
+        a:hover{color:red;font-size:20px;}
+    </style><!--备注说明-->
+</head>
+ <body><table summary="摘要">
+       <caption><em>我的标题</em></caption>
+<tr>
+    <th>名称</th>
+    <th>数量</th>
+    <th>日期</th>
+</tr>
+       <tr>
+           <td>联想</td>
+           <td>300</td>
+           <td>300</td>
+       </tr>
+       <tr>
+           <td>华为</td>
+           <td>500</td>
+           <td>500</td>
+       </tr>
+   </table>
+ <ol class="first">
+     <li><a href="mailto:575930391@qq.com?subject=主题&body=内容">发送</a></li>
+     <li>美丽出现</li>
+     <li>触目惊心</li>
+ </ol><q>床前明月光</q><br/>
+ <p style="color:blue">1922年的春天，一个想要成名名叫尼克•卡拉威 （<a href="http://www.baidu.com" title="百度一下" target="_top">托比•马奎尔Tobey Maguire </a>饰）的作家，
+     离开了美国中西部，来到了纽约。那是一个道德感渐失，爵士乐流行，走私为王，
+     股票飞涨的时代。为了追寻他的美国梦，他搬入纽约附近一海湾居住。</p>
+ <hr/>
+ <form method="post" action="save.php">
+     账户
+     <input type="text" namme="my name"/><br/>
+     密码
+     <input type="password" name="pass"/><br/>
+     <textarea name="" id="" cols="30" rows="10">请输入内容</textarea>
+ </form>
+ <form action="sav.php" method="post">
+     你是否喜欢旅游？<br/>
+     <input type="radio" name="radiolove" value="喜欢" checked="checked"/>喜欢
+     <input type="radio" name="radiolove" value="不喜欢"/>不喜欢
+     <input type="radio" name="radiolove" value="无所谓"/>无所谓
+     <br/><br/>
+     你对哪些运动感兴趣，请选择：<br/>
+     跑步<input type="checkbox" name="checkbox1" value="跑步"/><br/>
+     打球<input type="checkbox" name="checkbox2" value="打球" checked="checked"/><br/>
+     健身<input type="checkbox" name="checkbox3" value="健身" checked="checked"/>
+ </form>
+ <form name="iform">
+     <label>爱好</label>
+     <select>
+         <option value="看书">看书</option>
+         <option value="旅游">旅游</option>
+         <option value="运动" selected="selected">运动</option>
+     </select>
+ </form>
+ <br/><br/>
+ <form name="iform">
+     <label>爱好</label>
+     <select multiple="multiple">
+         <option value="看书">看书</option>
+         <option value="旅游">旅游</option>
+         <option value="运动">运动</option>
+     </select>
+ </form>
+ <hr/>
+ <form action="sav.php" method="post">
+     <label>姓名：</label>
+     <input type="text"/>
+     <input type="submit" value="提交"/>
+     <br/>
+     <label>姓名：</label>
+     <input type="text"/>
+     <input type="reset" value="重置"/>
+ </form>
+ <form>
+     <label for="male">男</label>
+     <input type="radio" name="gender" id="male" />
+     <br />
+     <label for="female">女</label>
+     <input type="radio" name="gender" id="female" />
+     <label for="email">输入你的邮箱地址</label>
+     <input type="email" id="email" placeholder="Enter email">
+ </form>
+ <p>我现在学css</p>
+<img src="image/100.jpg" title="my image">
+</body>
+</html>
