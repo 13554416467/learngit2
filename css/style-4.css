@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:#eff0f4;
+}
+.box{
+    width:auto;
+    height:88px;
+    background-color:#5fc0cd;
+    color:white;
+    text-align: center;
+}
+.text1{
+    font-size:32px;
+    position:absolute;
+    left:29px;
+}
+.text2{
+    font-size:36px;
+}
+.text3{
+    font-size:32px;
+    position:absolute;
+    right:29px;
+}
+.box4{
+    height: 100px;
+    background: white;
+    margin-top:16px;
+}
