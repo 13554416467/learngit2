@@ -92,7 +92,7 @@ audio {
 .box-1 {
     width: 22vw;
     height: 22vw;
-    border: 3px solid white;
+    border: .5vw solid white;
     box-sizing: content-box;
 }
 .cell-id {
@@ -115,8 +115,9 @@ ul {
     list-style:none;
     display: flex;
     opacity: 0;
-    margin-top: 1.4vw !important;
+    margin-top: 1.5vw !important;
     margin-bottom: 0 !important;
+    font-size: 0;
 }
 .box-1:hover .abc{
     opacity: 1;
