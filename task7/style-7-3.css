@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body {
-    height: 100vw;
-}
 .header {
     position: fixed;
     top: 0;
@@ -39,10 +36,14 @@ body {
 .text-1 {
     font-size: 17px;
     color: #ffc865;
-    text-align: left;
+    text-align: center;
     width: 76%;
     margin: auto;
     height: 90px;
+}
+.text-left {
+    display: inline-block;
+    text-align: left;
 }
 .text-2 {
     font-size: 13px;
@@ -60,6 +61,7 @@ p {
     height: 80px;
     border-bottom: 1px solid #dddddd;
     margin-top: 5px;
+    margin-bottom: 68px;
 }
 .text-4 {
     font-size: 13px;
