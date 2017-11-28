@@ -92,7 +92,7 @@ audio {
 .box-1 {
     width: 22vw;
     height: 22vw;
-    border: .4vw solid white;
+    border: 3px solid white;
     box-sizing: content-box;
 }
 .cell-id {
