@@ -60,6 +60,9 @@ ul {
 .navbar-header {
     margin-right: 0 !important;
 }
+.navbar-toggle {
+    margin-right: 0 !important;
+}
 .tt {
     border-bottom: 1px solid white;
 }

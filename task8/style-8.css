@@ -10,6 +10,9 @@
     /*padding-right: 0 !important;*/
 }
 .navbar-default .navbar-toggle:hover {
+    background-color: #29b078;
+}
+.navbar-toggle:focus {
     background-color: #29b078 !important;
 }
 .header {
@@ -62,9 +65,13 @@ ul {
 .navbar-header {
     margin-right: 0 !important;
 }
+.navbar-toggle {
+    margin-right: 0 !important;
+}
 .tt {
     border-bottom: 1px solid white;
 }
+
 .bc:hover {
     border-bottom: 1px solid white !important;
     color: black !important;
@@ -298,6 +305,7 @@ h4 {
     width: 72px;
     text-align: left;
     display: inline-block;
+    border-bottom: 1px solid white;
 }
 .we::before {
     content: "";
