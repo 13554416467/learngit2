@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-a {
+    padding-top: 0 !important;
+}
+.header-b {
+    padding-top: 0 !important;
+    /*padding-right: 0 !important;*/
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #29b078 !important;
+}
+@media screen and (max-width: 768px){
+    .bb {
+        width: 70px;
+    }
+}
+.header {
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1 {
+    color: #29b078;
+}
+.header-r {
+    list-style: none;
+}
+ul {
+    margin-bottom: 0 !important;
+}
+.abc {
+    float: left;
+    padding-left: 10px;
+}
+/*头部第一行已修改*/
+.navbar {
+    background-color: #29b078 !important;
+    border-radius: 0 !important;
+}
+.navbar-toggle {
+    border: none !important;
+}
+.bc {
+    color: white !important;
+    font-size: 16px;
+    line-height: 70px !important;
+}
+/*.bc-1 {*/
+/*padding-right: 0 !important;*/
+/*}*/
+.navbar-collapse {
+    /*margin-right: 0 !important;*/
+    /*padding-right: 0 !important;*/
+}
+.navbar-header {
+    margin-right: 0 !important;
+}
+.tt {
+    border-bottom: 1px solid white;
+}
+.bc:hover {
+    border-bottom: 1px solid white !important;
+    color: black !important;
+}
+@media screen and (max-width: 768px) {
+    .bc{
+        line-height: 20px !important;
+    }
+}
+.xz {
+    line-height: 101px !important;
+}
+@media screen and (max-width: 768px) {
+    .xz{
+        line-height: 51px !important;
+        padding-left: 15px;
+    }
+}
+.cd {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .op {
+        float: right !important;
+    }
+}
+.navbar {
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+.footer-main {
+    padding-top: 10px;
+}
+.footer {
+    background-color: #26a26f;
+}
+.footer-txt {
+    font-size: 16px;
+}
+.footer-cell {
+    display: inline-block;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.footer-r {
+    color: white;
+    text-align: left;
+}
+.footer-d {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    margin: 5px 0 0 0 !important;
+}
+.main {
+    padding-bottom: 50px;
+    background-color: #fafafa;
+}
+.nav-img img {
+    width: 100%;
+}
+.nav-h {
+    height: 77px;
+    line-height: 77px;
+    font-size: 16px;
+    color: #29b078;
+}
+.txt-a {
+    color: black;
+    text-decoration: none !important;
+}
+.box-1 {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 3px #ccc;
+    /*四边都有阴影*/
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-1 {
+    height: 62px;
+    border-bottom: 1px solid #ccc;
+    line-height: 62px;
+    margin-bottom: 40px;
+}
+.item {
+    display: inline-block;
+    padding-bottom: 40px;
+    color: #29b078;
+    text-decoration: none !important;
+    width: 69px;
+    text-align: left;
+}
+.item-b {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f9a372;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: 1px;
+    opacity: 0;
+}
+.item:hover {
+    color: #f9a372;
+}
+.item:hover .item-b {
+    opacity: 1;
+}
+.item-b-1 {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f9a372;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: 1px;
+}
+.box-2 {
+    background-color: white;
+    box-shadow: 0 0 3px #ccc;
+}
+.box-2-t {
+    /*height: 155px;*/
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*.box-img {*/
+    /*width: 27%;*/
+
+/*}*/
+.box-txt {
+    width: 73%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #999;
+    text-indent: 2em;
+}
+
+@media screen and (max-width: 768px){
+    .box-txt {
+        width: 100%;
+        padding-right: 51px;
+        padding-left: 51px;
+    }
+}
+.box-3-p {
+    text-indent: 2em;
+    padding:38px 67px 0 67px !important;
+    font-size: 14px;
+    color: #a7a7a7;
+    line-height: 25px;
+}
+.box-3 {
+    padding-bottom: 110px;
+}
+.box-4 {
+    margin-bottom: 30px;
+}
