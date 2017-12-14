@@ -87,7 +87,7 @@ h4 {
   }
 }
 .list-item {
-  padding: 1.8rem 0;
+  padding: 1.2rem 0;
   margin-left: 3rem;
   font-size: 1.6rem;
   display: flex;
@@ -95,9 +95,11 @@ h4 {
   border-bottom: .1rem solid #e1e5e7;
 }
 .list-item-last {
-  padding: 1.8rem 0 1.8rem 3rem;
+  padding: 1.2rem 0 1.2rem 3rem;
   font-size: 1.6rem;
   border-bottom: .1rem solid #e1e5e7;
+  display: flex;
+  align-items: center;
 }
 .list-item span{
   padding-right: 1.4rem;
@@ -114,8 +116,6 @@ h4 {
   flex: none;
 }
 .item-txt {
-  display: inline-block;
-  width: 60%
 }
 .footer {
   position: fixed;
@@ -130,7 +130,7 @@ h4 {
   box-sizing: border-box;
   button {
     width: 40%;
-    height: 80%;
+    height: 70%;
     border-radius: .5rem;
     font-size: 1.7rem;
   }
