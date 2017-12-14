@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff; }
+
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px; }
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 35px;
+  background: #29bde0;
+  text-align: center;
+  line-height: 35px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff; }
+  .header .header-l {
+    position: absolute;
+    left: 10px; }
+  .header .header-r {
+    position: absolute;
+    right: 10px; }
+
+.icon {
+  width: 100%;
+  height: 130px;
+  background: #29bde0;
+  text-align: center;
+  line-height: 130px;
+  margin-top: 35px;
+  padding-top: 15px; }
+
+.text {
+  background-color: #29bde0; }
+
+.text-1 {
+  width: 76%;
+  height: 90px;
+  background: none;
+  font-size: 17px;
+  color: #ffc865;
+  text-align: center;
+  margin: auto; }
+  .text-1 .text-left {
+    display: inline-block;
+    text-align: left; }
+
+.text-2 {
+  width: 76%;
+  height: 106px;
+  background: none;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: left;
+  margin: auto; }
+  .text-2 p {
+    margin: 0 0 2px; }
+
+.text-3 {
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 5px; }
+
+.text-4 {
+  width: 76%;
+  height: 85px;
+  background: none;
+  font-size: 13px;
+  color: #a6a6a6;
+  text-align: left;
+  margin: auto; }
+
+.relative {
+  position: relative; }
+  .relative .span-1 {
+    font-size: 15px;
+    color: black; }
+  .relative .span-2 {
+    position: absolute;
+    right: 3px;
+    font-size: 10px; }
+
+.margin {
+  margin-top: 7px; }
+
+.dd {
+  margin-bottom: 70px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  background: rgba(119, 190, 206, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+#footer-l {
+  width: 40%;
+  height: 39px;
+  background: #f66f6f;
+  line-height: 39px;
+  border-radius: 8px; }
+
+#footer-r {
+  width: 40%;
+  height: 39px;
+  background: #fbb435;
+  line-height: 39px;
+  border-radius: 8px; }
+
+/*# sourceMappingURL=13-3.css.map */

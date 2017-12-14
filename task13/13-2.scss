@@ -1,0 +1,130 @@
+@import "index.scss";
+body {
+  @include locate(100%,100vh,$blue);
+}
+.flex {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $blue;
+  .header {
+    @include locate(100%,45px,$blue);
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    color: $white;
+  }
+}
+.header-left {
+  float: left;
+  @include locate(12%,45px);
+  line-height: 3;
+}
+.header-center {
+  float: left;
+  @include locate(76%,45px);
+}
+.header-right {
+  float: left;
+  @include locate(12%,45px);
+  line-height: 3;
+}
+.main {
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+.nav {
+  @include locate(100%,40px,#b9e9f5);
+  line-height: 40px;
+  position: relative;
+  font-size: 13px;
+  overflow: hidden;
+  span {
+    position: absolute;
+    left: 25px;
+  }
+  .img {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+  }
+}
+audio {
+  position: absolute ;
+  top: 3px;
+  right:-260px;
+  opacity: 0;
+}
+.nav-after {
+  @include locate(100%,35px);
+  margin-bottom: 5px;
+  line-height: 35px;
+  padding-left: 35px;
+  font-size: 12px;
+  color: $white;
+}
+.triangle-up {
+  @include locate(0,0);
+  border-left:6px solid transparent;
+  border-right:6px solid transparent;
+  border-top:6px solid #b9e9f5;
+  position: relative;
+  top: -40px;
+  left: 35px;
+}
+.main-row-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8vw;
+}
+.box-1 {
+  @include locate(22vw,22vw);
+  border: .5vw solid $white;
+  box-sizing: content-box;
+}
+.cell-id {
+  @include locate(100%,16vw,#f5c97b);
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 16vw;
+}
+.cell-num {
+  @include locate(100%,6vw,#83b09a);
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+  line-height: 6vw;
+}
+ul {
+  display: flex;
+  opacity: 0;
+  margin-top: 1.5vw;
+  margin-bottom: 0;
+  font-size: 0;
+  .item {
+    width: 4vw;
+    margin: 1vw;
+    .img-1 {
+      width: 100%;
+    }
+  }
+}
+.box-1:hover .abc{
+  opacity: 1;
+}
+.footer {
+  @include locate(100%,80px,$blue);
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  text-align: center;
+  line-height: 80px;
+  .btn {
+    @include locate(78%,45px,#fbb435);
+    line-height: 45px;
+    font-size: 20px;
+  }
+}
+

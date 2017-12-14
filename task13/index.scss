@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+$white: #ffffff;
+$blue: #29bde0;
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+@mixin locate($width,$height,$background:none) {
+  width: $width;
+  height: $height;
+  background: $background;
+}

@@ -1,0 +1,98 @@
+@import "index.scss";
+.header {
+  position: fixed;
+  top: 0;
+  @include locate(100%,35px,$blue);
+  text-align: center;
+  line-height: 35px;
+  font-size: 17px;
+  color: $white;
+  border-bottom: 1px solid $white;
+  .header-l {
+    position: absolute;
+    left: 10px;
+  }
+  .header-r {
+    position: absolute;
+    right: 10px;
+  }
+}
+.icon {
+  @include locate(100%,130px,$blue);
+  text-align: center;
+  line-height: 130px;
+  margin-top: 35px;
+  padding-top: 15px;
+}
+.text {
+  background-color: $blue;
+}
+.text-1 {
+  @include locate(76%,90px);
+  font-size: 17px;
+  color: #ffc865;
+  text-align: center;
+  margin: auto;
+  .text-left {
+    display: inline-block;
+    text-align: left;
+  }
+}
+.text-2 {
+  @include locate(76%,106px);
+  font-size: 13px;
+  color: $white;
+  text-align: left;
+  margin: auto;
+  p {
+    margin: 0 0 2px;
+  }
+}
+.text-3 {
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin-top: 5px;
+}
+.text-4 {
+  @include locate(76%,85px);
+  font-size: 13px;
+  color: #a6a6a6;
+  text-align: left;
+  margin: auto;
+}
+.relative {
+  position: relative;
+  .span-1 {
+    font-size: 15px;
+    color: black;
+  }
+  .span-2 {
+    position: absolute;
+    right: 3px;
+    font-size: 10px;
+  }
+}
+.margin {
+  margin-top: 7px;
+}
+.dd {
+  margin-bottom: 70px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  @include locate(100%,65px,rgba(119,190,206,0.5));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer-l {
+  @include locate(40%,39px,#f66f6f);
+  line-height:39px;
+  border-radius:  8px;
+}
+#footer-r {
+  @include locate(40%,39px,#fbb435);
+  line-height:39px;
+  border-radius: 8px;
+}
