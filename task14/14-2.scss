@@ -1,0 +1,165 @@
+@import "base.scss";
+.zz {
+  border-bottom: 1px solid $white;
+}
+.li-item-2 {
+  border-bottom: 2px solid $white;
+}
+.main {
+  width: 100%;
+  background: $background;
+  padding-bottom: 80px;
+}
+.title {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid $color;
+  h4 span {
+    color: $green;
+    a {
+      color: $black
+    }
+  }
+}
+.main-nav {
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  border-bottom: 1px solid $color;
+  ul {
+    display: flex;
+    height: 100%;
+    align-items: center !important;
+    flex-wrap: wrap;
+    .main-nav-item {
+      margin-right: 15px;
+      font-size: 16px;
+      color: $color;
+    }
+  }
+}
+.main-nav-item a {
+  color: $black;
+  &:hover {
+    color: $white;
+    background: $green;
+  }
+}
+.column {
+  width: 90%;
+  margin: auto;
+  .h4 {
+    line-height: 70px;
+    border-bottom: 1px solid $color;
+  }
+}
+.wrap-item ul {
+  background: $white;
+  box-shadow: 0 0 3px $color;
+}
+.tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid $gray;
+}
+.tr-txt {
+  width: 50%;
+  padding-left: 10px;
+  h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  p {
+    word-break: break-all;
+
+  }
+}
+.td-1 {
+  display: flex;
+  border-bottom: 1px solid $gray;
+  .side-line {
+    border-left: 1px solid $gray;
+  }
+}
+.td-1-item {
+  width: 50%;
+  height: 100%;
+  padding: 8px 10px;
+}
+.ccc {
+  color: $color;
+}
+.red {
+  color: red;
+}
+.td-2 {
+  display: flex;
+  .td-2-item {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid $gray;
+  }
+  .td-2-txt {
+    width: 60%;
+    border-left: 1px solid $gray;
+    p {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      border-bottom: 1px solid $gray;
+    }
+  }
+}
+.td-3 {
+  padding: 8px 10px;
+  border-bottom: 1px solid $gray;
+}
+
+.wrap-item {
+  margin-top: 40px;
+}
+.wrap-item-list {
+  position: relative;
+}
+.box {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 15%;
+  color: $white;
+  box-sizing: border-box;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.75);
+  h4 {
+    padding: 20px;
+    text-align: center;
+  }
+  p {
+    text-indent: 2em;
+
+  }
+}
+.wrap-item:hover .box{
+  opacity: 1;
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
+@media screen and (min-width: 768px){
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    .wrap-item {
+      width: 50%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import "base.scss";
+.tj {
+  border-bottom: 1px solid $white;
+}
+.li-item-3 {
+  border-bottom: 2px solid $white;
+}
+.main {
+  background: $background;
+  padding-bottom: 80px;
+}
+.banner img {
+  width: 100%;
+}
+.title {
+  width: 90%;
+  margin: auto;
+  line-height: 100px;
+  h4 span {
+    color: $green;
+    a {
+      color: $black;
+      font-size: 18px;
+    }
+  }
+}
+.column,.article {
+  background: $white;
+  box-shadow: 0 0 3px $color;
+}
+.main-content {
+  width: 90%;
+  margin: auto;
+}
+.column-title {
+  text-align: center;
+  line-height: 80px;
+  font-size: 18px;
+  border-bottom: 1px solid $color;
+}
+.column-list {
+  padding: 15px 0;
+  margin-bottom: 50px;
+  li {
+    text-align: center;
+    padding: 15px 0;
+  }
+}
+.column-list-item {
+  color: $green;
+  display: inline-block;
+  width: 85px;
+  text-align: left;
+  &:before {
+    display: inline-block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f9a372;
+    margin-right: 5px;
+    vertical-align: 1px;
+    opacity: 0;
+  }
+}
+.current  {
+  color: #f9a372;
+  &:before {
+    opacity: 1;
+  }
+}
+.column-list-item:hover {
+  color: #f9a372;
+  &:before {
+    opacity: 1;
+  }
+}
+.article-header {
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid $color;
+  .header-text {
+    color: $color;
+    line-height: 30px;
+    text-indent: 2em;
+    word-break: break-all;
+    padding: 10px 20px;
+    text-align: left;
+  }
+}
+.main-text {
+  color: $color;
+  line-height: 30px;
+  text-indent: 2em;
+  word-break: break-all;
+  margin: 40px;
+  text-align: left;
+}
+.article {
+  padding-bottom: 1px;
+}
+@media screen and (min-width: 768px){
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    .column {
+      width: 25%;
+      height: min-content;
+    }
+    .article {
+      width: 73%;
+    }
+  }
+}
+@media screen and (min-width: 768px){
+  .article-header {
+    display: flex;
+    align-items: center;
+    img {
+      max-width: 134px;
+      height: min-content;
+    }
+  }
+}
