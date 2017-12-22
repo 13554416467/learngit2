@@ -34,7 +34,8 @@ a {
   display: none; }
 
 #checkbox:checked + .bcd {
-  display: block; }
+  display: block;
+  transition: opacity 3s; }
 
 .nav, .footer {
   background: #29b078; }

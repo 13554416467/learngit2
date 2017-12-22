@@ -68,8 +68,9 @@
   flex-wrap: wrap;
   text-align: center;
 }
+
 .main-content-item {
-  width: 50%;
+  width: 25%;
   padding: 0 30px;
   margin: 50px 0;
   color: $color;
@@ -79,6 +80,11 @@
   }
   h4 {
     margin: 30px 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-content-item {
+    width: 50%;
   }
 }
 .task {
@@ -133,6 +139,19 @@
     }
   }
 }
+@media screen and (min-width: 1024px) {
+  .main-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    li {
+      width: 25%;
+      padding: 0 15px;
+      box-sizing: border-box;
+    }
+  }
+}
 .show {
   width: 90%;
   margin: auto;
@@ -168,6 +187,16 @@
     }
   }
 }
+@media screen and (min-width: 1024px) {
+  .show-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+      width: 24% !important;
+    }
+  }
+}
 .partner {
   width: 90%;
   margin: auto;
@@ -178,12 +207,12 @@
 }
 .partner-list li {
   text-align: center;
-  padding: 40px 0;
+  padding: 60px 0;
   margin: 10px 0;
   background: $white;
   &:hover {
     position: relative;
-    z-index: 22;
+    z-index: 999;
     box-shadow:0 0 2px 3px $color;
     border-left: 1px solid transparent;
   }
@@ -197,6 +226,15 @@
     }
   }
 }
+@media screen and (min-width: 1024px) {
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 19.9%;
+    }
+  }
+}
 .main-link {
   background: $white;
   padding-bottom: 20px;
@@ -205,6 +243,8 @@
     margin: 20px 0;
   }
   .link-list {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     li {
@@ -240,5 +280,10 @@
 @media screen and (min-width: 768px){
   .link-list li {
     width: 25% !important;
+  }
+}
+@media screen and (min-width: 1024px){
+  .link-list li {
+    width: 10% !important;
   }
 }

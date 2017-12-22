@@ -44,6 +44,7 @@ $gray: #eeeded;
 }
 #checkbox:checked + .bcd {
   display: block;
+  transition: opacity 3s;
 }
 .nav,.footer {
   background: $green;
