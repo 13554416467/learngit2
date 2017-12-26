@@ -1,0 +1,27 @@
+.container {
+    width: 35%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.box {
+    width: 30%;
+    padding-top: 30%;
+    background: orange;
+    float: left;
+    margin: 1.6%;
+    border-radius: 10px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 6px;
+    background: #ffffff;
+    border: 1px solid orange;
+    outline: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: orange;
+    color: #FFFFFF;
+}
