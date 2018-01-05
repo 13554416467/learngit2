@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="scss/2.css">
+    <title>第二页，配比页面</title>
+
+</head>
+<body>
+<div class="header">
+    <a href="js-2.html" class="back-icon"><img src="img/back-icon.png" alt=""></a>
+    参数设置
+    <a href="" class="circled-help"><img src="img/circled-help.png" alt=""></a>
+</div>
+<div class="main">
+    <div class="content">
+        <section>
+            <div class="title">
+                <span>玩</span>
+                <span>家</span>
+                <span>匹</span>
+                <span>配</span>
+            </div>
+            <div id="shop">
+
+            </div>
+            <div class="set" onclick="demo()">
+               点击设置
+                <img src="img/pencil.png" alt="">
+            </div>
+        </section>
+        <div class="column">
+            <input type="text" class="txt" placeholder="水民词组">
+            <input type="text" class="txt" placeholder="幽灵词组">
+        </div>
+        <div class="setting">
+            <div class="player">
+                玩家人数
+                <input type="text" value="4" class="player-num" id="playerNum">人
+            </div>
+            <div class="scroll">
+                <button id="less"><img src="img/subtract.png" alt="" class="subtract"></button>
+                <input type="range" id="num" min="4" max="18" step="1" value="4" class="ss"/>
+                <button id="adding"><img src="img/add.png" alt="" class="add"></button>
+            </div>
+        </div>
+        <button class="footer">去发牌</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
