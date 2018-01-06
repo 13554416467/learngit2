@@ -1,39 +1,42 @@
-var playerNum = document.getElementById("playerNum");
-var num = document.getElementById("num");
-var adding=document.getElementById("adding");
-var less=document.getElementById("less");
+var playerNum = document.getElementById("playerNum"),
+    num = document.getElementById("num"),
+    adding = document.getElementById("adding"),
+    less = document.getElementById("less"),
+    setBtn = document.getElementById("setBtn"),
+    footerBtn = document.getElementById("footerBtn");
+    shop = document.getElementById("shop");
+function changeColor() {
+  var percentage = (playerNum.value - 4) / (18 - 4) * 100 + "%";
+    num.style.backgroundImage="url(img/bm.png)";
+    num.style.backgroundRepeat="no-repeat";
+    num.style.backgroundSize = percentage + "100%";
+
+}
 num.oninput=function() {
     playerNum.value= num.value;
     changeColor()
-}
+};
 playerNum.oninput=function() {
     num.value= playerNum.value;
     changeColor()
-}
+};
 playerNum.onchange=function(){
-    if(playerNum.value<4||playerNum.value>18){
+    if (playerNum.value<4||playerNum.value>18) {
         alert("请输入正确的玩家数量（4-18）人");
         playerNum.value=4;
-        myFunctio()
+        num.value=playerNum.value
     }
-}
+};
 adding.onclick=function () {
     playerNum.value = parseInt(playerNum.value) + 1;
     num.value =playerNum.value;
     if(playerNum.value>18){
         alert("请输入正确的玩家数量（4-18）人");
-        playerNum.value=4;
-        myFunctio()
+        playerNum.value=18;
+        num.value=playerNum.value
     }
     changeColor()
-}
-
-function changeColor() {
-    percentage = (playerNum.value - 4) / (18 - 4) * 100 + "%";
-    num.style.backgroundSize = percentage + "100%";
-    num.style.backgroundImage="url(img/bm.png)";
-}
-
+};
 
 less.onclick=function () {
     playerNum.value = parseInt(playerNum.value) - 1;
@@ -41,12 +44,12 @@ less.onclick=function () {
     if(playerNum.value<4){
         alert("请输入正确的玩家数量（4-18）人");
         playerNum.value=4;
-        myFunctio()
+        num.value=playerNum.value
     }
     changeColor()
-}
+};
 
-function demo(){
+setBtn.onclick= function (){
     var i=0;
     var list="";
     var x=num.value;
@@ -63,6 +66,7 @@ function demo(){
             add[rnd] = add[--i];
         }
     }
+
     if (x>5&&x<9){
         arr.length=x-2;
         killer.length=2;
@@ -116,7 +120,22 @@ function demo(){
         }
     }
     // list="<ul>"+list+"</ul>";
-    document.getElementById("shop") .innerHTML=list;
-}
+    shop.innerHTML=list;
+
+};
+
+footerBtn.onclick = function() {
+    li=document.getElementsByTagName('li');//记一下这个用法
+    var cars = new Array(li.length);
+    if (cars.length===0){
+        alert("玩家还未匹配")
+    }
+    if (cars.length != playerNum.value&&cars.length!=0){
+        alert("玩家设置未更新")
+    }
+    if (cars.length==playerNum.value){
+            window.location.href = "js-2-3.html";
+    }
+};
 
 
