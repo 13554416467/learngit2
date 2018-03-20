@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<div ng-controller="newCtrl" class="bbb">
+    <div class="add_content">
+        <div class="add-title">
+            {{pageTitle}}
+        </div>
+        <div class="column">
+            <label class="column-label">标题名称</label>
+            <input class="column-input" type="text" ng-model="paramsTitle">
+
+        </div>
+        <div class="column">
+            <label class="column-label">类&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp型</label>
+            <select class="column-sel" ng-model="typeNum" ng-options="item.id as item.name for item in typeA"></select>
+            <select class="column-sel" ng-show="typeNum===3" ng-model="industry " ng-options="item.id as item.name for item in typeC"></select>
+        </div>
+        <div class="column ">
+            <label class="column-label explain">说&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp明</label>
+            <!--富文本-->
+            <div class="ueditor" ng-model="content" id="editor"></div>
+        </div>
+        <div class="column">
+            <label class="column-label">跳转链接</label>
+            <input class="column-input" type="text" ng-model="paramsUrl">
+        </div>
+        <div class="column">
+            <label class="column-label">配&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp图</label>
+            <span class="column-file">
+                <span class="col-file ">
+                    <!--<label class="btn btn-primary" for="file2">选择文件</label>-->
+                    <!--<input id="file2" style="display: none" type="file" nv-file-select="" uploader="uploader" ng-model="myFiles">-->
+                <button class="btn btn-primary" type="file" ngf-select="uploadFiles($file, $invalidFiles)"
+                        accept="image/*" ngf-max-height="1000" ngf-max-size="1MB">
+                      选择文件</button>
+
+                </span>
+            </span>
+        </div>
+        <div class="col-img">
+            <div class="img">
+                <img alt="配图预览" id="img-preview" ngf-size="{width: 300, quality: 1}" style="width: 300px;" ng-src="{{imgView}}">
+                <!--<img alt="配图预览" ng-show="img" ngf-thumbnail="img" ngf-size="{width: 300, quality: 1}" style="width: 300px;" class="ng-hide">-->
+            </div>
+            <div class="col-12">
+                <div class="table-responsive col-8 ">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>图片名</th>
+                            <th>文件大小</th>
+                            <th>进度</th>
+                            <th>操作</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!-- ngRepeat: item in vm.uploader1.queue track by $index -->
+                        <tr>
+                            <td>{{f.name}}</td>
+                            <td ng-show="f">{{f.size | toMB}}</td>
+                            <td ng-show="f">
+                                <div class="progress"   style="margin-bottom: 0;">
+                                    <div class="progress-bar" role="progressbar" ng-style="{ 'width': f.progress + '%' }" style="width: 0%;"></div>
+                                </div>
+                            </td>
+                            <td >
+                                <span ng-show="f.progress===100" class="fa fa-check">
+                                </span>
+                            </td>
+                            <td ng-show="f">
+                                <button type="button" class="btn btn-success btn-xs" ng-click="upSent()" ng-disabled="f.progress===100">
+                                    <span class="glyphicon glyphicon-upload" ></span> 上传
+                                </button>
+                                <button type="button" class="btn btn-danger btn-xs" ng-click="imgDelete()">
+                                    <span class="glyphicon glyphicon-trash"></span> 删除
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-8 ">
+                <button type="button" class="btn btn-success" ng-click="pubArticle()" ng-disabled="!imgView ||!paramsTitle  ||!paramsUrl">立即上线
+                </button>
+                <button type="button" class="btn btn-success" ng-click="saveArticle()"  ng-disabled="!imgView ||!paramsTitle  ||!paramsUrl">存为草稿
+                </button>
+                <!--<span class="text-red" ng-show="!vm.vaidShow">请补全信息</span>-->
+                <button type="button" class="btn btn-default pull-right" ui-sref="start.articleList">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+

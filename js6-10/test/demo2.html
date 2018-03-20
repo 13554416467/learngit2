@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo2</title>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+</head>
+<body>
+<div ng-app="app" ng-controller="ctrl">
+    名称：{{goods.title}} <br/>
+    价格：{{goods.price}} <br/>
+    数量：{{goods.num}} <br/>
+    总计： {{goods.price*goods.num}}<br/>
+    <button ng-click = 'add()'>增加</button>
+    <button ng-click = 'reduce()'>减少</button>
+</div>
+<script>
+    var m = angular.module('app',[]);
+    m.controller('ctrl',function($scope){
+        $scope.goods = {'title': 'apple','price':300,'num': 0};
+        $scope.add = function() {
+            $scope.goods.num = Math.min(++$scope.goods.num,6)
+        };
+        $scope.reduce = function() {
+            $scope.goods.num = Math.max(--$scope.goods.num,0);
+        }
+    })
+
+</script>
+
+</body>
+</html>

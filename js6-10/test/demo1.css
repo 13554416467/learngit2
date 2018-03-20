@@ -1,0 +1,19 @@
+.demo {
+    width: 250px;
+    background:  #232a3a;
+}
+.ng-binding {
+    color: #ffffff;
+}
+.panel-heading {
+    background:  #232a3a !important;
+    border: none !important;
+}
+.panel-body {
+    background:  #232a3a;
+    color: #ffffff;
+    border: none !important;
+}
+.panel-default {
+    border: none !important;
+}

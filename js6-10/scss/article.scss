@@ -1,0 +1,118 @@
+.article-content {
+  background: #f5f5f5;
+  padding: 30px 30px 0 30px;
+}
+.form-content {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+.form-th {
+  line-height: 26px;
+  height: 30px;
+  background: #ffffff;
+  margin: 0 0 15px 0;
+}
+.line {
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: black;
+}
+.article-label {
+  text-align: center;
+  padding: 0 !important;
+}
+.article-input {
+  padding: 0 !important;
+  outline: none;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  line-height: 28px;
+}
+.jj {
+  padding: 0
+}
+.select {
+  line-height: 30px;
+  padding: 3px 5px 7px 5px;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+}
+.form-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.clear-btn {
+  margin-right: 3px;
+}
+.article-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+.add-btn {
+  color: #fff;
+  background-color: #5cb85c !important;
+  border-color: #4cae4c !important;
+  padding: 0;
+  width: 46px;
+  height: 23px;
+  font-size: 12px;
+}
+.table-content {
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+}
+.table-line {
+  border: 1px solid #ddd;
+  margin: 0;
+}
+.table th, .table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.link {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none !important;
+}
+//分页
+.input-num {
+  width: 35px;
+  border-radius: 6px;
+  border: 1px solid #DBDBDB;
+  text-align: center;
+  outline: none;
+}
+.page-module {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.text-center {
+  vertical-align: middle !important;
+}
+.confirm-btn {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.img-small {
+  max-width: 80px;
+}
+.panel-body {
+  border-top-color: #232a3a !important;
+}

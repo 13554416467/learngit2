@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<div class="start-page">
+    <div class="sidebar">
+        <h4 class="sidebar-title"><b>萝卜多后台管理系统</b></h4>
+        <div class="demo">
+            <uib-accordion close-others="oneAtATime">
+                <div uib-accordion-group class="panel-default yy" is-open="status.open1">
+                    <uib-accordion-heading>
+                        <span class="bar-color">Article管理</span> <i class="pull-right glyphicon bar-color gg" ng-class="{'glyphicon-chevron-down': status.open1, 'glyphicon-chevron-right': !status.open}"></i>
+                    </uib-accordion-heading>
+                   <a ui-sref="start.articleList" class="article">Article列表</a>
+                </div>
+                <div uib-accordion-group class="panel-default yy" is-open="status.open2">
+                    <uib-accordion-heading>
+                        <span class="bar-color">信息管理</span> <i class="pull-right glyphicon bar-color gg" ng-class="{'glyphicon-chevron-down': status.open2, 'glyphicon-chevron-right': !status.open}"></i>
+                    </uib-accordion-heading>
+                    学员档案
+                </div>
+            </uib-accordion>
+        </div>
+
+    </div>
+    <div class="content-page">
+        <div class="top-content">
+            <span class="fa fa-power-off" ui-sref="login"></span>
+            <span class="admin">admin</span>
+        </div>
+        <div class="ui-view">
+        <h1>Welcome!</h1>
+        </div>
+    </div>
+
+</div>
+

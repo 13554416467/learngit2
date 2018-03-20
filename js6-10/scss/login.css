@@ -1,0 +1,76 @@
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset; }
+
+.container-login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/bg.png") no-repeat center/cover; }
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: #03a9f4;
+  margin: 20px 0; }
+
+.login-information {
+  position: relative;
+  width: 380px;
+  height: 280px;
+  padding: 0 20px;
+  background: #d3d8e1; }
+
+.wrap {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: #ffffff; }
+  .wrap span {
+    display: inline-block;
+    width: 50px;
+    text-align: center; }
+
+.input-box {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 12px;
+  border-left: 1px solid #e8e8e8;
+  -webkit-tap-highlight-color: #ffffff; }
+
+.msg {
+  position: absolute;
+  color: red !important;
+  left: 75px;
+  font-size: 13px;
+  bottom: 90px !important;
+  margin: 0 !important; }
+
+.login-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  margin-top: 30px;
+  padding: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #03a9f4; }
+  .login-btn:hover {
+    color: black; }
+
+/*# sourceMappingURL=login.css.map */

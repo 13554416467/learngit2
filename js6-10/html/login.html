@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<div class="container-login" ng-controller="login">
+    <div class="login-information">
+        <h4 class="title">后台登录</h4>
+        <p class="username wrap">
+            <span><img src="img/user-icon.png" alt=""></span>
+            <input type="text" placeholder="用户名" id="username" autofocus="autofocus" class="input-box" ng-model="userName">
+        </p>
+        <p class="password wrap">
+            <span><img src="img/password-icon.png" alt=""></span>
+            <input type="password" placeholder="密码" id="password" class="input-box" ng-model="passWord">
+        </p>
+        <p class="msg" ng-bind="msg"></p>
+        <button class="login-btn" id="navigation" ng-click="login()">登录</button>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ng-option</title>
+    <script src="../js/angular.min.js"></script>
+</head>
+<body ng-app="myapp">
+<div ng-controller="ctrl">
+    <select>
+        <option value="1">语文</option>
+        <option value="2">数学</option>
+        <option value="3">英语</option>
+        <option value="4">生物</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <div>{{city2}}
+        <br>
+        <select ng-options="x.id as x.city for x in obj" ng-model="city2"></select>
+    </div>
+</div>
+<script>
+    var  myapp = angular.module('myapp',[]);
+    myapp.controller('ctrl',function ($scope) {
+        $scope.city2 = "bj";
+        $scope.obj = [
+            { "id": "bj", "city": "北京" },
+            { "id": "sh", "city": "上海" },
+            { "id": "zz", "city": "郑州" }
+        ]
+
+    })
+</script>
+</body>
+</html>
