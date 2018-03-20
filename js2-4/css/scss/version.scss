@@ -1,0 +1,104 @@
+//globalconfig
+@import "stylesheets/config-global";
+//module
+@import "stylesheets/modules";
+//theme
+@import "stylesheets/theme";
+//state classes
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: $fontSizePrimary;
+    background-color: $body-bgc;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .5rem;
+    background-color: $header-bgc;
+    &-btn {
+        @include menu;
+    }
+}
+
+.main {
+    padding-left: .2rem;
+    padding-right: .2rem;
+    margin-top: .68rem;
+    margin-bottom: .5rem;
+    &-header {
+        line-height: .6rem;
+        font-size: $fontSizeLarge;
+        color: $c-gray;
+        text-align: center;
+        background-color: $main-bgc;
+        .link {
+            color: $c-gray;
+            text-decoration: none;
+        }
+    }
+    &-body {
+        text-align: center;
+        background-color: $main-bgc;
+        .title {
+            margin: 0;
+            line-height: .5rem;
+            border-bottom: .001rem solid $c-gold;
+            font-size: $fontSizeLarge;
+            word-spacing: 1;
+            color: $c-gold;
+        }
+        .list {
+            position: relative;
+            list-style: none;
+            padding-left: .3rem;
+            padding-right: .3rem;
+            .version {
+                display: block;
+                line-height: .8rem;
+                color: $c-white;
+                background-color: $header-bgc;
+                text-decoration: none;
+            }
+            .count {
+                line-height: .5rem;
+                color: $c-gray;
+            }
+            &::after {
+                @include triangle($c-gold);
+                display: block;
+                content: "";
+                position: absolute;
+                top: 1.7rem;
+                transform: translateY(-50%);
+                right: .08rem;
+            }
+        }
+        .list-flex {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            -webkit-padding-start: 0;
+            .dots {
+                display: inline-block;
+                width: .1rem;
+                height: .1rem;
+                margin: .05rem;
+                border-radius: 50%;
+                background-color: $body-bgc;
+                &-active {
+                    background-color: $header-bgc;
+                }
+                &:hover {
+                    background-color: $header-bgc;
+                }
+            }
+        }
+    }
+}

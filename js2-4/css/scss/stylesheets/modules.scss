@@ -1,0 +1,85 @@
+//icon
+@mixin menu {
+    position: relative;
+    width: .4rem;
+    height: .5rem;
+    background-color: #29bde0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: .18rem;
+        height: .015rem;
+        background-color: #fff;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: .18rem;
+        height: .15rem;
+        border-width: .015rem;
+        border-style: solid none;
+        border-color: #fff;
+    }
+}
+
+@mixin triangle($color) {
+    border-left: .15rem solid $color;
+    border-top: .175rem solid transparent;
+    border-bottom: .175rem solid transparent;
+    border-right: none;
+    cursor: pointer;
+}
+
+@mixin returnArrow {
+    display: inline-block;
+    box-sizing: border-box;
+    width: .15rem;
+    height: .15rem;
+    border-top: .03rem solid #fff;
+    border-left: .03rem solid #fff;
+    border-right: .03rem solid transparent;
+    border-bottom: .03rem solid transparent;
+    background-color: transparent;
+    transform: rotate(-45deg);
+}
+
+@mixin play {
+    position: absolute;
+    top: 50%;
+    right: .1rem;
+    transform: translateY(-50%);
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    background-color: #fbb435;
+    &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: .08rem;
+        transform: translateY(-50%);
+        border-left: .2rem solid #fff;
+        border-top: .1rem solid transparent;
+        border-bottom: .1rem solid transparent;
+    }
+}
+
+@mixin nowarp {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

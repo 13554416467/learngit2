@@ -1,0 +1,125 @@
+//globalconfig
+@import "stylesheets/config-global";
+//module
+@import "stylesheets/modules";
+//theme
+@import "stylesheets/theme";
+//state classes
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: $fontSizePrimary;
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .5rem;
+    padding: 0 .15rem;
+    border-bottom: .01rem solid $c-white;
+    font-size: $fontSizeXLarge;
+    color: $c-white;
+    background-color: $header-bgc;
+    .home {
+        width: .3rem;
+        height: .3rem;
+        border: none;
+        outline: none;
+        background: transparent url("../images/home.png") no-repeat center / .3rem;
+        cursor: pointer;
+    }
+    .back {
+        width: .3rem;
+        height: .3rem;
+        border: none;
+        outline: none;
+        background: transparent url("../images/！.png") no-repeat center / .3rem;
+        cursor: pointer;
+    }
+}
+
+.result {
+    overflow: hidden;
+    padding: 0 .3rem;
+    text-align: center;
+    background-color: $header-bgc;
+    .result-img {
+        margin: 0 auto;
+        display: block;
+        max-width: 2.5rem;
+        width: 100%;
+        padding-top: .3rem;
+    }
+    .result-text {
+        display: inline-block;
+        color: #ffc865;
+        font-size: .18rem;
+        text-align: left;
+    }
+    .result-list {
+        padding: 0;
+        text-align: left;
+        color: #fff;
+        list-style: none;
+    }
+}
+
+.game-process {
+    color: #999;
+    background-color: #fff;
+    ul {
+        margin: 0;
+        padding: .1rem .3rem;
+        list-style: none;
+        line-height: 1.5;
+        border-bottom: .01rem solid #e8e8e8;
+        .time {
+            display: flex;
+            justify-content: space-between;
+            font-size: .18rem;
+            color: #515151;
+            span {
+                font-size: .13rem;
+                color: #d5d5d5;
+            }
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: .7rem;
+    background-color: rgba(41, 189, 224, 0.7);
+}
+
+.footer__btn {
+    width: 40%;
+    height: .4rem;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: .05rem;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    background-color: #fbb435;
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+//globalconfig
+@import "stylesheets/config-global";
+//module
+@import "stylesheets/modules";
+//theme
+@import "stylesheets/theme";
+//state classes
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: $fontSizePrimary;
+    background-color: $header-bgc;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .5rem;
+    padding: 0 .15rem;
+    border-bottom: .01rem solid $c-white;
+    font-size: $fontSizeXLarge;
+    color: $c-white;
+    background-color: $header-bgc;
+    .back {
+        @include returnArrow;
+        padding: 0;
+        outline: none;
+        cursor: pointer;
+    }
+    .close {
+        width: .2rem;
+        height: .2rem;
+        border: none;
+        outline: none;
+        background: transparent url("../images/close.png") no-repeat center / .3rem;
+        cursor: pointer;
+    }
+}
+
+.main {
+    overflow: hidden;
+    margin-top: .5rem;
+    padding: 0 .5rem;
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        margin: .5rem 0;
+        border: .05rem solid $c-white;
+        background-color: #ffedc5;
+        .player-num {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: .4rem;
+            width: .4rem;
+            border: .03rem solid #ffedc5;
+            border-radius: 50%;
+            font-size: $fontSizeXLarge;
+            font-weight: 500;
+            color: #f56b81;
+            background-color: $c-white;
+        }
+        .identity-king {
+            width: 100%;
+            max-width: 1.7rem;
+        }
+        .identity-player {
+            display: none;
+            width: 100%;
+            max-width: 1.2rem;
+        }
+        .identity-text {
+            font-size: $fontSizeXLarge;
+            color: $header-bgc;
+        }
+    }
+    .pass__btn {
+        display: block;
+        width: 100%;
+        line-height: .5rem;
+        margin: .2rem 0;
+        border: none;
+        font-size: $fontSizeXLarge*1.2;
+        color: $c-white;
+        background-color: $c-gold;
+        cursor: pointer;
+    }
+}

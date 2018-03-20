@@ -1,0 +1,151 @@
+//globalconfig
+@import "stylesheets/config-global";
+//module
+@import "stylesheets/modules";
+//theme
+@import "stylesheets/theme";
+//state classes
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: $fontSizePrimary;
+    background-color: $header-bgc;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .5rem;
+    padding: 0 .15rem;
+    border-bottom: .01rem solid $c-white;
+    font-size: $fontSizeXLarge;
+    color: $c-white;
+    background-color: $header-bgc;
+    .back {
+        @include returnArrow;
+        padding: 0;
+        outline: none;
+        cursor: pointer;
+    }
+    .close {
+        width: .2rem;
+        height: .2rem;
+        border: none;
+        outline: none;
+        background: transparent url("../images/close.png") no-repeat center / .3rem;
+        cursor: pointer;
+    }
+}
+
+.title {
+    margin-top: .5rem;
+    overflow: hidden;
+    &__text {
+        position: relative;
+        line-height: .35rem;
+        margin: .1rem 0 0 0;
+        padding-left: 10vw;
+        background-color: #b9e9f5;
+        &::after {
+            position: absolute;
+            left: 10vw;
+            bottom: -.12rem;
+            content: "";
+            border-top: .12rem solid #b9e9f5;
+            border-left: .06rem solid transparent;
+            border-right: .06rem solid transparent;
+        }
+    }
+    &__tips {
+        line-height: .4rem;
+        margin: 0;
+        padding-left: 10vw;
+        font-size: $fontSizeSmall;
+        color: $c-white;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .2rem 5vw;
+    margin-bottom: .8rem;
+    .wrap {
+        position: relative;
+        box-sizing: border-box;
+        width: 20vw;
+        height: 20vw;
+        margin: 5vw;
+        border: .35vw solid $c-white;
+        cursor: pointer;
+        .player__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15.3vw;
+            margin: 0;
+            background-color: #f5c97b;
+        }
+        .player__num {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 4vw;
+            margin: 0;
+            background-color: #83b09a;
+            color: $c-white;
+        }
+    }
+    .wrap-knife {
+        &::after {
+            position: absolute;
+            left: 50%;
+            bottom: -8vw;
+            transform: translateX(-50%);
+            content: "";
+            width: 5vw;
+            height: 5vw;
+            background: url("../images/knife.png") no-repeat center/ 5vw 5vw;
+        }
+    }
+    .wrap-unClickable {
+        .player__text {
+            background-color: #e8e8e8;
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .8rem;
+    background-color: $header-bgc;
+    .start__btn {
+        display: inline-block;
+        line-height: .5rem;
+        width: 80%;
+        padding: 0;
+        border: none;
+        outline: none;
+        font-size: $fontSizeXLarge*1.2;
+        color: $c-white;
+        background-color: $c-gold;
+        cursor: pointer;
+    }
+}
