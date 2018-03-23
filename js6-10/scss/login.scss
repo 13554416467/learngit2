@@ -69,11 +69,9 @@ input:-webkit-autofill {
   color: #ffffff;
   border: none;
   margin-top: 30px;
-  padding: 0;
-  border-radius: 3px;
+
   cursor: pointer;
   background: #03a9f4;
-  &:hover {
-    color: black;
-  }
+  text-align: center;
+
 }

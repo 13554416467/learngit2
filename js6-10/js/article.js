@@ -2,54 +2,62 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
 
 //选择框
     $scope.arr1 = [
-        {id: -1, name: "全部"},
+        {id: "", name: "全部"},
         {id: 0, name: "首页banner"},
         {id: 1, name: "找职位banner"},
         {id: 2, name: "找精英banner"},
         {id: 3, name: "行业大图"}
     ];
-    $scope.typeNum = -1;
     $scope.arr2 = [
-        {id: 0, name: "全部"},
+        {id: "", name: "全部"},
         {id: 1, name: "草稿"},
         {id: 2, name: "上线"}
     ];
-    $scope.stateNum = 0;
+    $scope.typeNum = $scope.arr1[0].id;
+    $scope.stateNum = $scope.arr2[0].id;
     $scope.startDat = "";
     $scope.endDat = "";
     // b = "";
     // alert(Boolean(b));
-    var sendData = '?';
-    if ($stateParams.page) {
-        sendData = sendData + 'page=' + $stateParams.page;
-    }
-
-    if ($stateParams.size) {
-        sendData = sendData + '&size=' + $stateParams.size;
-    }
-    if ($stateParams.startAt) {
-        sendData = sendData + '&startAt=' + $stateParams.startAt;
-
-    }
-    if ($stateParams.endAt) {
-        sendData = sendData + '&endAt=' + $stateParams.endAt;
-    }
-    if ($stateParams.status > 0) {
-        sendData = sendData + '&status=' + $stateParams.status;
-    }
-    if ($stateParams.type >= 0) {
-        sendData = sendData + '&type=' + $stateParams.type;
-    }
-    console.log(sendData);
-    $http({  //angularJS中的$http服务
-        method: 'get', //转送方式
-        url: '/carrots-admin-ajax/a/article/search' + sendData//  发送地址
+    // var sendData = '?';
+    // if ($stateParams.page) {
+    //     sendData = sendData + 'page=' + $stateParams.page;
+    // }
+    //
+    // if ($stateParams.size) {
+    //     sendData = sendData + '&size=' + $stateParams.size;
+    // }
+    // if ($stateParams.startAt) {
+    //     sendData = sendData + '&startAt=' + $stateParams.startAt;
+    //
+    // }
+    // if ($stateParams.endAt) {
+    //     sendData = sendData + '&endAt=' + $stateParams.endAt;
+    // }
+    // if ($stateParams.status > 0) {
+    //     sendData = sendData + '&status=' + $stateParams.status;
+    // }
+    // if ($stateParams.type >= 0) {
+    //     sendData = sendData + '&type=' + $stateParams.type;
+    // }
+    // console.log(sendData);
+    $http({
+        method: 'get',
+        url: "/carrots-admin-ajax/a/article/search",
+        params: {
+            size: $stateParams.size,
+            page: $stateParams.page,
+            type: $stateParams.type,
+            status: $stateParams.status,
+            startAt: $stateParams.startAt,
+            endAt: $stateParams.endAt
+        }
     }).then(function (res) {
         console.log(res);
         $scope.articleList = res.data.data.articleList;
-        $scope.currentPage = res.data.data.page; //当前页数
-        $scope.pageSize = res.data.data.size;   //每页显示数量
-        $scope.totalItems = res.data.data.total;  //总数
+        $scope.pageSize = res.data.data.size;
+        $scope.currentPage = res.data.data.page;
+        $scope.totalItems = res.data.data.total;
         if (typeof ($stateParams.type) != "undefined") {
             $scope.typeNum = parseInt($stateParams.type);
         }
@@ -82,8 +90,8 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     $scope.clear = function () {
         $scope.startDat = "";
         $scope.endDat = "";
-        $scope.typeNum = -1;
-        $scope.stateNum = 0;
+        $scope.typeNum = "";
+        $scope.stateNum = "";
         $scope.currentPage = 1;
         $scope.search();
     };

@@ -29,7 +29,6 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
             startAt: $stateParams.startAt,
             endAt: $stateParams.endAt
         }
-
     }).then(function (res) {
         console.log(res);
         $scope.articleList = res.data.data.articleList;
@@ -49,12 +48,11 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
             $scope.endDat = parseInt($stateParams.endAt);
         }
     });
-    var b;
-    console.log(typeof (b));
+
     // 分页搜索
     console.log($scope.typeNum);
     $scope.search = function () {
-
+         console.log($scope.typeNum);
         $state.go("start.articleList", {
             size: $scope.pageSize,
             page: $scope.currentPage,
@@ -71,8 +69,8 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     $scope.clear = function () {
         $scope.startDat = "";
         $scope.endDat = "";
-        $scope.typeNum = -1;
-        $scope.stateNum = 0;
+        $scope.typeNum = "";
+        $scope.stateNum = "";
         $scope.currentPage = 1;
         $scope.search();
     };

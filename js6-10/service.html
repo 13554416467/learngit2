@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="js/angular.min.js"></script>
+    <!--<script src="js/angular.min.js"></script>-->
+    <script src="node_modules/angular/angular.min.js"></script>
 </head>
-<body>
-<script>
+<body ng-app="app" ng-controller="ctrl">
+<!--<div hs-pl></div> &lt;!&ndash;A&ndash;&gt;-->
+<!--<hs-pl></hs-pl>    &lt;!&ndash;E&ndash;&gt;-->
+<!--<div class="hs-pl"></div> &lt;!&ndash;C&ndash;&gt;-->
 
+<script>
+//var app = angular.module('app',[]);
+//    app.directive('hsPl',[function () {
+//        return {
+//            restrict: 'AEC',
+//            template: '爱要怎么说出口'
+//        }
+//    }])
+
+    var app = angular.module('app',[]);
+    app.factory('myServer',function ($http) {
+        return{
+            all:function () {
+                return $http({url:'1.php'});
+            }
+        }
+    });
+    app.controller('ctrl',function ($scope,myServer) {
+        myServer.all().then(function (res) {
+            console.log(res);
+        });
+    });
 </script>
 </body>
 </html>
+
+
+

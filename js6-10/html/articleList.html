@@ -2,45 +2,46 @@
 <div class="article-content" ng-controller="article">
     <!--表单模块-->
     <!--<form>-->
-        <div class="form-content">
-            <div class="row form-th">
-                <div class="col-md-4 jj">
-                    <label class="col-md-4">发布时间</label>
-                    <!--日历插件-->
-                    <input type="text" class="col-md-8 article-input" uib-datepicker-popup
-                           is-open="popup1.opened"
-                           datepicker-options="dateOptions"  close-text="Close"
-                           ng-click="open1()"
-                           ng-model="startDat"/>
-                    <!--日历插件结束-->
-                </div>
-                <div class="col-md-4 jj">
-                    <label class="col-md-4 article-label"><span class="line"></span></label>
-                    <!--日历插件-->
-                    <input type="text" class="col-md-8 article-input" uib-datepicker-popup
-                           is-open="popup2.opened"
-                           datepicker-options="dateOptions"  close-text="Close" ng-click="open2()"
-                           ng-model="endDat"/>
-                    <!--日历插件结束-->
-                </div>
-                <div class="col-md-4 jj">
-                    <label class="col-md-4 article-label">类型</label>
-                    <select name="type" class="col-md-8 select" ng-model="typeNum" ng-options = "item.id as item.name for item in arr1">
-                    </select>
-                </div>
+    <div class="form-content">
+        <div class="row form-th">
+            <div class="col-md-4 jj">
+                <label class="col-md-4">发布时间</label>
+                <!--日历插件-->
+                <input type="text" class="col-md-8 article-input" uib-datepicker-popup
+                       is-open="popup1.opened"
+                       datepicker-options="dateOptions" close-text="Close"
+                       ng-click="open1()"
+                       ng-model="startDat"/>
+                <!--日历插件结束-->
             </div>
-            <div class="row form-th">
-                <div class="col-md-4 jj">
-                    <label class="col-md-4 article-label">状态</label>
-                    <select class="col-md-8 select" ng-model="stateNum" ng-options = "item.id as item.name for item in arr2">
-                    </select>
-                </div>
+            <div class="col-md-4 jj">
+                <label class="col-md-4 article-label"><span class="line"></span></label>
+                <!--日历插件-->
+                <input type="text" class="col-md-8 article-input" uib-datepicker-popup
+                       is-open="popup2.opened"
+                       datepicker-options="dateOptions" close-text="Close" ng-click="open2()"
+                       ng-model="endDat"/>
+                <!--日历插件结束-->
             </div>
-            <div class="form-btn">
-                <button class="btn btn-success" ng-click = "search()">搜索</button>
-                <button class="btn btn-danger clear-btn" ng-click = "clear()">清空</button>
+            <div class="col-md-4 jj">
+                <label class="col-md-4 article-label">类型</label>
+                <select name="type" class="col-md-8 select" ng-model="typeNum"
+                        ng-options="item.id as item.name for item in arr1">
+                </select>
             </div>
         </div>
+        <div class="row form-th">
+            <div class="col-md-4 jj">
+                <label class="col-md-4 article-label">状态</label>
+                <select class="col-md-8 select" ng-model="stateNum" ng-options="item.id as item.name for item in arr2">
+                </select>
+            </div>
+        </div>
+        <div class="form-btn">
+            <button class="btn btn-success" ng-click="search()">搜索</button>
+            <button class="btn btn-danger clear-btn" ng-click="clear()">清空</button>
+        </div>
+    </div>
     <!--</form>-->
     <!--表单模块结束-->
     <!--列表模块-->
@@ -68,9 +69,9 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="x in articleList " >
+                <tr ng-repeat="x in articleList ">
                     <td class="text-center">{{$index + 1}}</td>
-                    <td><img ng-src="{{x.img}}" alt="" class="img-small"></td>
+                    <td><img ng-src="{{x.img}}" class="img-small"></td>
                     <td class="text-center">{{x.title}}</td>
                     <td class="text-center">{{x.type | type}}</td>
                     <td class="text-center">
@@ -82,8 +83,8 @@
                     <td class="text-center">{{x.author}}</td>
                     <td class="text-center">{{x.status | status}}</td>
                     <td class="text-center">
-                        <a href="" class="link btn btn-default" ng-click = "OnLine()">{{btn_onLine()}}</a>
-                        <a href="" class="link btn btn-info" ng-click = "edit()">编辑</a>
+                        <a href="" class="link btn btn-default" ng-click="OnLine()">{{btn_onLine()}}</a>
+                        <a href="" class="link btn btn-info" ng-click="edit()">编辑</a>
                         <a href="" class="link btn btn-danger" ng-click="delete()">删除</a>
                     </td>
                 </tr>

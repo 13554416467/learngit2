@@ -2,15 +2,24 @@
 <div class="container-login" ng-controller="login">
     <div class="login-information">
         <h4 class="title">后台登录</h4>
-        <p class="username wrap">
-            <span><img src="img/user-icon.png" alt=""></span>
-            <input type="text" placeholder="用户名" id="username" autofocus="autofocus" class="input-box" ng-model="userName">
-        </p>
-        <p class="password wrap">
-            <span><img src="img/password-icon.png" alt=""></span>
-            <input type="password" placeholder="密码" id="password" class="input-box" ng-model="passWord">
-        </p>
-        <p class="msg" ng-bind="msg"></p>
-        <button class="login-btn" id="navigation" ng-click="login()">登录</button>
+        <form name="userForm">
+            <p class="username wrap">
+                <span><img src="img/user-icon.png" alt=""></span>
+                <input type="text" placeholder="用户名" name="username" id="username" autofocus="autofocus"
+                       class="input-box" ng-model="userName" ng-minlength="3" ng-maxlength="8" required
+                >
+            </p>
+            <p class="password wrap">
+                <span><img src="img/password-icon.png" alt=""></span>
+                <input type="password" placeholder="密码" id="password" class="input-box" ng-model="passWord" required>
+            </p>
+            <p class="msg" ng-hide="!userForm.$valid">{{msg}}</p>
+            <p class="msg" ng-show="userForm.username.$error.minlength">用户名字符不能小于3</p>
+            <p class="msg" ng-show="userForm.username.$error.maxlength">用户名字符不能大于8</p>
+            <p class="msg" ng-show="userForm.username.$error.required">请输入用户名</p>
+            <input class="btn  login-btn" type="button" id="navigation" value="登录" ng-click="login()"
+                   ng-disabled="!userForm.$valid"/>
+            <!--<input type="submit" value="提交" ng-disabled="!userForm.$valid" class="btn btn-success"/>-->
+        </form>
     </div>
 </div>

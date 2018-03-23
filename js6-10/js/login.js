@@ -1,5 +1,6 @@
 
 angular.module("app").controller('login',function ($http,$scope,$state) {
+
     $scope.login=function(){  //按钮点击函数
         $http({  //angularJS中的$http服务
             method:'post', //转送方式
@@ -19,7 +20,8 @@ angular.module("app").controller('login',function ($http,$scope,$state) {
                     $scope.msg =rest.data.message; //利用ng-bind将后台返回的信息显示在HTML中
             }
         })
-    }
+    };
+
 });
 
 
