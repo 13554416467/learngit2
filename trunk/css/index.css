@@ -2,7 +2,6 @@ body{
     background-image: url("../img/bgimg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border: 1px solid red;
 }
 .peop{
     border-radius: 50%;
@@ -92,8 +91,8 @@ body{
     text-decoration: none;
 }
 
-/*媒体查询*/
-@media screen and (max-width: 996px){
+/*媒体查询----移动端响应式*/
+@media screen and (max-width: 768px){
 
     .logo-h {
         width: 50vw;
@@ -145,7 +144,6 @@ body{
     .peoples-h {
         width: 39.6vw;
         height: 39.6vw;
-        border: 1px solid red;
         margin-top: -8vw !important;
     }
     .mar-l-65 {
@@ -175,13 +173,11 @@ body{
     }
     .footer-inner {
         width :100%;
-        border: 1px solid red;
         display: flex;
         padding: 0 2vw;
         /*justify-content: space-around;*/
     }
     .go-wrap {
-        border: 1px solid red;
         width: 43vw;
         margin-top: 4.1vw;
     }
