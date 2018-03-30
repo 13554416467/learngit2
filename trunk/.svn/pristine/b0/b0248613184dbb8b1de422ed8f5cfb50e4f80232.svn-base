@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>技能树·IT修真院</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="bookmark" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?881c95f7c702cc0048e160cfe5ec5e86";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header mar-t-40">
+                <div class="col-xs-6">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="col-sm-6">
+                    <div style="margin-top: 15px">
+                        <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank">
+                            <img src="img/go-site.png" alt="logo" class="pull-right">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mar-t-40 mar-l-65">
+                <img src="img/p1.png" class="peop pull-left mar-r-20">
+                <div class="wow bounceInLeft">
+                    <img src="img/p1-wenzi.png">
+                </div>
+            </div>
+            <div class="mar-t-40 mar-r-65 pull-right">
+                <img src="img/p2.png" class="peop pull-right mar-l-20">
+                <div class="pull-right wow lightSpeedIn">
+                    <img src="img/p2-wenzi.png">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center mar-t-40 wow rollIn">
+                <img src="img/ydymffd.png" alt="一对一免费IT辅导">
+            </div>
+            <div class="text-center mar-t-40">
+                <img src="img/code.png" alt="二维码">
+            </div>
+            <div class="text-center mar-t-40">
+                <img src="img/mffd.png" alt="IT修真院，一个免费的在线IT辅导平台">
+            </div>
+            <div class="text-center mar-t-40">
+                <img src="img/ys.png" alt="我们的优势">
+            </div>
+
+        </div>
+        <div class="row mar-t-40">
+            <div class="col-xs-6 mar-t-80 wow bounceInLeft">
+                <img src="img/ydy.png" alt="一对一">
+                <div class="more-txt">
+                    拒绝大班赶鸭子，加入班级即分配专属师兄一对一指导，答疑解惑
+                </div>
+                <div>
+                    <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank" class="more">了解更多></a>
+                </div>
+            </div>
+            <div class="col-xs-6">
+               <div class="text-right">
+                   <img src="img/ydy-1.png" alt="一对一">
+               </div>
+            </div>
+        </div>
+        <div class="row mar-t-40">
+            <div class="col-xs-6">
+                <div>
+                    <img src="img/szp-1.png">
+                </div>
+            </div>
+            <div class="col-xs-6 mar-t-80">
+                <div class="wow bounceInRight">
+                    <img src="img/szp.png">
+                    <div class="more-txt">
+                        拒绝看视频，所有任务均从真实项目中拆分而来
+                        上手写代码，只学有用的
+                    </div>
+                    <div>
+                        <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank" class="more">了解更多></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mar-t-40">
+            <div class="col-xs-6 mar-t-80 wow bounceInLeft">
+                <img src="img/hds.png" alt="一对一">
+                <div class="more-txt">
+                    拒绝灌输式学习，每日学习成果与问题反馈到日报中
+                    师兄每日点评日报，定点突破
+                </div>
+                <div>
+                    <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank" class="more">了解更多></a>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="text-right">
+                    <img src="img/hds-1.png" alt="一对一">
+                </div>
+            </div>
+        </div>
+        <div class="row mar-t-40">
+            <div class="col-xs-6">
+                <div>
+                    <img src="img/zxm-1.png">
+                </div>
+            </div>
+            <div class="col-xs-6 mar-t-80">
+                <div class="wow bounceInRight">
+                    <img src="img/zxm.png">
+                    <div class="more-txt">
+                        任务通关后即可申请复盘项目，用项目验证能力
+                        从需求评审到部署上线，体验真实的开发场景
+                    </div>
+                    <div>
+                        <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank" class="more">了解更多></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <img src="img/peoples.png" class="pull-left">
+                <div class="go-wrap mar-t-60 wow bounceInRight">
+                    <button class="go">
+                        <a href="http://www.jnshu.com/login/1/35769142?source=conduct" target="_blank">进入官网</a>
+                    </button>
+                    <div class="footer-txt">快来加入班级，领取专属师兄，开始你的编程之旅吧!</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
