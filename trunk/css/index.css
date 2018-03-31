@@ -1,7 +1,9 @@
 body{
     background-image: url("../img/bgimg.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .peop{
     border-radius: 50%;
@@ -99,12 +101,11 @@ body{
     }
     .p1-h,
     .p2-h{
-        width: 9.1vw;
+        width: 11vw;
     }
     .p1-wenzi-h,
     .p2-wenzi-h {
         width: 74vw;
-        height: 10vw;
     }
     .ydyfd-h {
         width: 84.5vw;
@@ -116,8 +117,8 @@ body{
         width: 91.4vw;
     }
     .ys-h {
-        width: 93.3vw;
-        /*height: 6.8vw;*/
+        width: 94vw;
+
     }
     .ydy-h {
         width: 20vw;
@@ -145,6 +146,7 @@ body{
         width: 39.6vw;
         height: 39.6vw;
         margin-top: -8vw !important;
+        border: 1px solid red;
     }
     .mar-l-65 {
         margin-left: 5.3vw;
@@ -175,11 +177,14 @@ body{
         width :100%;
         display: flex;
         padding: 0 2vw;
-        /*justify-content: space-around;*/
+        justify-content: space-around;
     }
     .go-wrap {
         width: 43vw;
         margin-top: 4.1vw;
+        border: 1px solid red;
+        position: relative;
+        left: 0;
     }
     .go {
         width: 26.6vw;
@@ -187,10 +192,11 @@ body{
         border-radius: 1vw;
     }
     .go a {
-        font-size: 3.3vw;
+        font-size: 4vw;
     }
     .footer-txt {
         font-size: 2.9vw;
+        margin-top: 1.5vw;
     }
     .footer {
         height: 26.6vw;
@@ -198,7 +204,7 @@ body{
         padding-top: 0;
     }
     .go-side-h {
-        width: 27vw;
+        width: 22vw;
     }
     .header {
         margin-top: 3.7vw;
