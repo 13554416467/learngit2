@@ -93,7 +93,8 @@ body{
     text-decoration: none;
 }
 
-/*媒体查询----移动端响应式*/
+/*媒体查询----移动端响应式部分*/
+
 @media screen and (max-width: 768px){
 
     .logo-h {
@@ -227,3 +228,9 @@ body{
         margin-top: 17.3vw;
     }
 }
+@media screen and (max-width: 390px) {
+    .go-wrap {
+        width: 45vw;
+    }
+}
+
