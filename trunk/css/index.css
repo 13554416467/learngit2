@@ -146,7 +146,6 @@ body{
         width: 39.6vw;
         height: 39.6vw;
         margin-top: -8vw !important;
-        border: 1px solid red;
     }
     .mar-l-65 {
         margin-left: 5.3vw;
@@ -182,7 +181,6 @@ body{
     .go-wrap {
         width: 43vw;
         margin-top: 4.1vw;
-        border: 1px solid red;
         position: relative;
         left: 0;
     }
@@ -205,6 +203,7 @@ body{
     }
     .go-side-h {
         width: 22vw;
+        margin-top: 2vw;
     }
     .header {
         margin-top: 3.7vw;
