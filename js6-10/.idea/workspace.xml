@@ -2,31 +2,342 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e2bd063f-3613-444b-a776-19b1920c63ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/articleList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/start.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/123123.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/article.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/migrate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angularjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/article.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/login.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/new.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/start.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/demo3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/DOCS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/migrate/migrate.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/migrate/migratewarn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/rollup.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/stats.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angularjs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angularjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angularjs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angularjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/articleList.html" afterPath="$PROJECT_DIR$/html/articleList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login.html" afterPath="$PROJECT_DIR$/html/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/new.html" afterPath="$PROJECT_DIR$/html/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/start.html" afterPath="$PROJECT_DIR$/html/start.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/123123.js" afterPath="$PROJECT_DIR$/js/123123.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/article.js" afterPath="$PROJECT_DIR$/js/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/article.css" afterPath="$PROJECT_DIR$/scss/article.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/article.css.map" afterPath="$PROJECT_DIR$/scss/article.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/article.scss" afterPath="$PROJECT_DIR$/scss/article.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/login.css" afterPath="$PROJECT_DIR$/scss/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/login.css.map" afterPath="$PROJECT_DIR$/scss/login.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/login.scss" afterPath="$PROJECT_DIR$/scss/login.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/new.css" afterPath="$PROJECT_DIR$/scss/new.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/new.css.map" afterPath="$PROJECT_DIR$/scss/new.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/new.scss" afterPath="$PROJECT_DIR$/scss/new.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/start.css" afterPath="$PROJECT_DIR$/scss/start.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/start.css.map" afterPath="$PROJECT_DIR$/scss/start.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/start.scss" afterPath="$PROJECT_DIR$/scss/start.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/demo1.html" afterPath="$PROJECT_DIR$/test/demo1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,21 +357,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="articleList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/articleList.html">
+      <file leaf-file-name="start.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="299">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/start.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1449">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/start.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/article.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+              <folding>
+                <element signature="e#99#273#0" expanded="false" />
+                <element signature="e#293#387#0" expanded="false" />
+                <element signature="e#531#875#0" expanded="false" />
+                <element signature="e#897#1643#0" expanded="false" />
+                <element signature="e#1180#1249#0" expanded="false" />
+                <element signature="e#1307#1379#0" expanded="false" />
+                <element signature="e#1438#1511#0" expanded="false" />
+                <element signature="e#1568#1637#0" expanded="false" />
+                <element signature="e#1679#2246#0" expanded="false" />
+                <element signature="e#2291#2472#0" expanded="false" />
+                <element signature="e#2516#3481#0" expanded="false" />
+                <element signature="e#3563#3724#0" expanded="false" />
+                <element signature="e#3768#6056#0" expanded="false" />
+                <element signature="e#6097#6231#0" expanded="false" />
+                <element signature="e#6280#6357#0" expanded="false" />
+                <element signature="e#6400#6497#0" expanded="false" />
+                <element signature="e#6524#6681#0" expanded="false" />
+                <element signature="e#6712#6880#0" expanded="false" />
+                <element signature="e#6917#7093#0" expanded="false" />
+                <element signature="e#7456#7608#0" expanded="false" />
+                <element signature="e#7642#7927#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="1311">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -78,17 +451,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/start.html" />
-        <option value="$PROJECT_DIR$/scss/start.scss" />
         <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/test/demo3.html" />
-        <option value="$PROJECT_DIR$/html/new.html" />
-        <option value="$PROJECT_DIR$/scss/new.scss" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/js/123123.js" />
         <option value="$PROJECT_DIR$/html/articleList.html" />
+        <option value="F:/PPT-master/PPT/js-06-npm-and-cnpm-hh.html" />
+        <option value="$PROJECT_DIR$/js/123123.js" />
+        <option value="$PROJECT_DIR$/scss/new.scss" />
+        <option value="$PROJECT_DIR$/html/new.html" />
+        <option value="$PROJECT_DIR$/scss/start.scss" />
+        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/article.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/start.js" />
+        <option value="$PROJECT_DIR$/html/start.html" />
       </list>
     </option>
   </component>
@@ -98,11 +473,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="20" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="196" />
+    <option name="y" value="42" />
+    <option name="width" value="960" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -119,6 +497,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,14 +510,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task14" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="E:/node.js/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,22 +564,27 @@
       <updated>1520042994619</updated>
       <workItem from="1520042999941" duration="26120000" />
       <workItem from="1520170452266" duration="5158000" />
+      <workItem from="1522036588361" duration="658000" />
+      <workItem from="1522062161387" duration="2421000" />
+      <workItem from="1522118209103" duration="9880000" />
+      <workItem from="1522136525176" duration="13765000" />
+      <workItem from="1522287524427" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31278000" />
+    <option name="totallyTimeSpent" value="58661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15919283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13909224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -225,11 +609,131 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/articleList.html">
+    <entry file="file://$PROJECT_DIR$/html/start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/start.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+          <folding>
+            <element signature="e#99#273#0" expanded="false" />
+            <element signature="e#293#387#0" expanded="false" />
+            <element signature="e#531#875#0" expanded="false" />
+            <element signature="e#897#1643#0" expanded="false" />
+            <element signature="e#1180#1249#0" expanded="false" />
+            <element signature="e#1307#1379#0" expanded="false" />
+            <element signature="e#1438#1511#0" expanded="false" />
+            <element signature="e#1568#1637#0" expanded="false" />
+            <element signature="e#1679#2246#0" expanded="false" />
+            <element signature="e#2291#2472#0" expanded="false" />
+            <element signature="e#2516#3481#0" expanded="false" />
+            <element signature="e#3563#3724#0" expanded="false" />
+            <element signature="e#3768#6056#0" expanded="false" />
+            <element signature="e#6097#6231#0" expanded="false" />
+            <element signature="e#6280#6357#0" expanded="false" />
+            <element signature="e#6400#6497#0" expanded="false" />
+            <element signature="e#6524#6681#0" expanded="false" />
+            <element signature="e#6712#6880#0" expanded="false" />
+            <element signature="e#6917#7093#0" expanded="false" />
+            <element signature="e#7456#7608#0" expanded="false" />
+            <element signature="e#7642#7927#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="93" lean-forward="true" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/articleList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/articleList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/articleList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -237,13 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="e#100#259#0" expanded="false" />
-            <element signature="e#304#388#0" expanded="false" />
-            <element signature="e#469#689#0" expanded="false" />
-            <element signature="e#4644#4793#0" expanded="false" />
-            <element signature="e#4827#5112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -251,27 +748,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#106#265#0" expanded="false" />
-            <element signature="e#310#394#0" expanded="false" />
-            <element signature="e#3360#3541#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/start.js" />
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -279,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -287,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -295,14 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/start.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -313,100 +787,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/PPT-master/PPT/js-06-npm-and-cnpm-hh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/articleList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/123123.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/new.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="484">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="437">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/new.js">
+    <entry file="file://$PROJECT_DIR$/scss/start.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="1150">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="1449">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/start.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/123123.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#106#265#0" expanded="false" />
-            <element signature="e#310#394#0" expanded="false" />
-            <element signature="e#3360#3541#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/articleList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="103" lean-forward="false" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+        <state relative-caret-position="1311">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
           <folding>
-            <element signature="e#100#259#0" expanded="false" />
-            <element signature="e#304#388#0" expanded="false" />
-            <element signature="e#469#689#0" expanded="false" />
-            <element signature="e#4644#4793#0" expanded="false" />
-            <element signature="e#4827#5112#0" expanded="false" />
+            <element signature="e#99#273#0" expanded="false" />
+            <element signature="e#293#387#0" expanded="false" />
+            <element signature="e#531#875#0" expanded="false" />
+            <element signature="e#897#1643#0" expanded="false" />
+            <element signature="e#1180#1249#0" expanded="false" />
+            <element signature="e#1307#1379#0" expanded="false" />
+            <element signature="e#1438#1511#0" expanded="false" />
+            <element signature="e#1568#1637#0" expanded="false" />
+            <element signature="e#1679#2246#0" expanded="false" />
+            <element signature="e#2291#2472#0" expanded="false" />
+            <element signature="e#2516#3481#0" expanded="false" />
+            <element signature="e#3563#3724#0" expanded="false" />
+            <element signature="e#3768#6056#0" expanded="false" />
+            <element signature="e#6097#6231#0" expanded="false" />
+            <element signature="e#6280#6357#0" expanded="false" />
+            <element signature="e#6400#6497#0" expanded="false" />
+            <element signature="e#6524#6681#0" expanded="false" />
+            <element signature="e#6712#6880#0" expanded="false" />
+            <element signature="e#6917#7093#0" expanded="false" />
+            <element signature="e#7456#7608#0" expanded="false" />
+            <element signature="e#7642#7927#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding />
         </state>
       </provider>

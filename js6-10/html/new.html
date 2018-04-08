@@ -4,24 +4,31 @@
         <div class="add-title">
             {{pageTitle}}
         </div>
+        <form name="newForm">
         <div class="column">
             <label class="column-label">标题名称</label>
-            <input class="column-input" type="text" ng-model="paramsTitle">
-
+            <input class="column-input" name="title" type="text" ng-model="paramsTitle" required>
+            <span ng-show="newForm.title.$error.required" style="color: red">*必填</span>
         </div>
         <div class="column">
             <label class="column-label">类&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp型</label>
-            <select class="column-sel" ng-model="typeNum" ng-options="item.id as item.name for item in typeA"></select>
-            <select class="column-sel" ng-show="typeNum===3" ng-model="industry " ng-options="item.id as item.name for item in typeC"></select>
+            <select class="column-sel" name="type" ng-model="typeNum" ng-options="item.id as item.name for item in typeA" required></select>
+            <select class="column-sel" name="type2" ng-show="typeNum===3" ng-model="industry " ng-options="item.id as item.name for item in typeC" ng-required="typeNum===3"></select>
+            <span ng-show="newForm.type.$error.required" style="color: red">*必填</span>
+            <span ng-show="newForm.type2.$error.required" style="color: red">*必填</span>
+
+            <!--<span ng-show="newForm.type2.$error.required" style="color: red">*必填</span>-->
         </div>
         <div class="column ">
             <label class="column-label explain">说&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp明</label>
             <!--富文本-->
-            <div class="ueditor" ng-model="content" id="editor"></div>
+            <div class="ueditor" name="ueditor" ng-model="content" id="editor" required></div>
+            <span ng-show="newForm.ueditor.$error.required" style="color: red">*必填</span>
         </div>
         <div class="column">
             <label class="column-label">跳转链接</label>
-            <input class="column-input" type="url" ng-model="paramsUrl">
+            <input class="column-input" name="url" type="url" ng-model="paramsUrl" required>
+            <span ng-show="!paramsUrl" style="color: red">*请输入网址</span>
         </div>
         <div class="column">
             <label class="column-label">配&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp图</label>
@@ -37,11 +44,11 @@
             </span>
         </div>
         <div class="col-img">
-            <div class="img">
+            <div class="img padding-5">
                 <img alt="配图预览" id="img-preview" ngf-size="{width: 300, quality: 1}" style="width: 300px;" ng-src="{{imgView}}">
                 <!--<img alt="配图预览" ng-show="img" ngf-thumbnail="img" ngf-size="{width: 300, quality: 1}" style="width: 300px;" class="ng-hide">-->
             </div>
-            <div class="col-12">
+            <div class="col-12 padding-5">
                 <div class="table-responsive col-8 ">
                     <table class="table">
                         <thead>
@@ -80,15 +87,16 @@
                     </table>
                 </div>
             </div>
-            <div class="col-8 ">
-                <button type="button" class="btn btn-success" ng-click="pubArticle()" ng-disabled="!imgView ||!paramsTitle  ||!paramsUrl">立即上线
+            <div class="col-8 padding-5">
+                <button type="button" class="btn btn-success" ng-click="pubArticle()" ng-disabled="!newForm.$valid ||!imgView">立即上线
                 </button>
-                <button type="button" class="btn btn-success" ng-click="saveArticle()"  ng-disabled="!imgView ||!paramsTitle  ||!paramsUrl">存为草稿
+                <button type="button" class="btn btn-success" ng-click="saveArticle()"  ng-disabled="!newForm.$valid ||!imgView">存为草稿
                 </button>
                 <!--<span class="text-red" ng-show="!vm.vaidShow">请补全信息</span>-->
                 <button type="button" class="btn btn-default pull-right" ui-sref="start.articleList">取消</button>
             </div>
         </div>
+        </form>
     </div>
 </div>
 

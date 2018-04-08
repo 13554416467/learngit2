@@ -1,6 +1,6 @@
-app.controller('article', function ($http, $scope, $state, $stateParams) {
-
+app.controller('article', function ($http, $scope, $state, $stateParams,$rootScope) {
 //选择框
+    $rootScope.a = 1;
     $scope.arr1 = [
         {id: "", name: "全部"},
         {id: 0, name: "首页banner"},
@@ -17,30 +17,7 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     $scope.stateNum = $scope.arr2[0].id;
     $scope.startDat = "";
     $scope.endDat = "";
-    // b = "";
-    // alert(Boolean(b));
-    // var sendData = '?';
-    // if ($stateParams.page) {
-    //     sendData = sendData + 'page=' + $stateParams.page;
-    // }
-    //
-    // if ($stateParams.size) {
-    //     sendData = sendData + '&size=' + $stateParams.size;
-    // }
-    // if ($stateParams.startAt) {
-    //     sendData = sendData + '&startAt=' + $stateParams.startAt;
-    //
-    // }
-    // if ($stateParams.endAt) {
-    //     sendData = sendData + '&endAt=' + $stateParams.endAt;
-    // }
-    // if ($stateParams.status > 0) {
-    //     sendData = sendData + '&status=' + $stateParams.status;
-    // }
-    // if ($stateParams.type >= 0) {
-    //     sendData = sendData + '&type=' + $stateParams.type;
-    // }
-    // console.log(sendData);
+
     $http({
         method: 'get',
         url: "/carrots-admin-ajax/a/article/search",
@@ -73,6 +50,11 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     });
 
     $scope.search = function () {
+        if (typeof ($scope.endDat) == "object"){
+            $scope.endDat = $scope.endDat.valueOf() + 86399999;
+        }
+        console.log(typeof ($scope.endDat));
+        console.log($scope.endDat.valueOf());
         $state.go('start.articleList',{
             page : $scope.currentPage,
             size : $scope.pageSize,

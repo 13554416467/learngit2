@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<div class="start-page">
+<div class="start-page" ng-controller="startCtrl">
     <div class="sidebar">
         <h4 class="sidebar-title"><b>萝卜多后台管理系统</b></h4>
         <div class="demo">
             <uib-accordion close-others="oneAtATime">
-                <div uib-accordion-group class="panel-default yy" is-open="status.open1">
+                <div uib-accordion-group class="panel-default yy" is-open = "a">
                     <uib-accordion-heading>
                         <span class="bar-color">Article管理</span> <i class="pull-right glyphicon bar-color gg" ng-class="{'glyphicon-chevron-down': status.open1, 'glyphicon-chevron-right': !status.open}"></i>
                     </uib-accordion-heading>
-                   <a ui-sref="start.articleList" class="article">Article列表</a>
+                    <a ui-sref="start.articleList" class="article">Article列表</a>
                 </div>
                 <div uib-accordion-group class="panel-default yy" is-open="status.open2">
                     <uib-accordion-heading>
@@ -26,7 +26,7 @@
             <span class="admin">admin</span>
         </div>
         <div class="ui-view">
-        <h1>Welcome!</h1>
+            <h1>Welcome!</h1>
         </div>
     </div>
 

@@ -1,5 +1,6 @@
 app.controller('article', function ($http, $scope, $state, $stateParams) {
-    //下拉框
+
+//选择框
     $scope.arr1 = [
         {id: "", name: "全部"},
         {id: 0, name: "首页banner"},
@@ -16,8 +17,30 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     $scope.stateNum = $scope.arr2[0].id;
     $scope.startDat = "";
     $scope.endDat = "";
-    console.log($scope.typeNum);
-    console.log($stateParams.type);
+    // b = "";
+    // alert(Boolean(b));
+    // var sendData = '?';
+    // if ($stateParams.page) {
+    //     sendData = sendData + 'page=' + $stateParams.page;
+    // }
+    //
+    // if ($stateParams.size) {
+    //     sendData = sendData + '&size=' + $stateParams.size;
+    // }
+    // if ($stateParams.startAt) {
+    //     sendData = sendData + '&startAt=' + $stateParams.startAt;
+    //
+    // }
+    // if ($stateParams.endAt) {
+    //     sendData = sendData + '&endAt=' + $stateParams.endAt;
+    // }
+    // if ($stateParams.status > 0) {
+    //     sendData = sendData + '&status=' + $stateParams.status;
+    // }
+    // if ($stateParams.type >= 0) {
+    //     sendData = sendData + '&type=' + $stateParams.type;
+    // }
+    // console.log(sendData);
     $http({
         method: 'get',
         url: "/carrots-admin-ajax/a/article/search",
@@ -49,20 +72,18 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
         }
     });
 
-    // 分页搜索
-    console.log($scope.typeNum);
     $scope.search = function () {
-         console.log($scope.typeNum);
-        $state.go("start.articleList", {
-            size: $scope.pageSize,
-            page: $scope.currentPage,
-            type: $scope.typeNum,
-            status: $scope.stateNum,
-            startAt: $scope.startDat.valueOf(),
-            endAt: $scope.endDat.valueOf()
-        }, {
-            reload: true
-        })
+        $state.go('start.articleList',{
+                page : $scope.currentPage,
+                size : $scope.pageSize,
+                type : $scope.typeNum,
+                status : $scope.stateNum,
+                startAt : $scope.startDat.valueOf(),
+                endAt : $scope.endDat.valueOf()
+            },{
+                reload: true
+            }
+        )
     };
 
     //清除按钮
@@ -75,20 +96,145 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
         $scope.search();
     };
 
+    //删除
+    $scope.delete = function () {
+        $scope.id = this.x.id;
+        console.log($scope.id);
+        bootbox.confirm({
+            title: '提示',
+            message: '是否确认删除',
+            buttons: {
+                confirm: {
+                    label: '确定'
+                },
+                cancel: {
+                    label: '取消'
+                }
+            },
+            callback: function (result) {
+                if (result) {
+                    // alert('你点了确定');
+                    $http({
+                        method: 'delete', //转送方式
+                        url: '/carrots-admin-ajax/a/u/article/' + $scope.id
+                    }).then(function (res) {
+                        console.log(res);
+                        $state.go($state.current, {
+                            page: $scope.currentPage
+                        }, {
+                            reload: true
+                        });
+                    });
+                }
+            }
+        })
+    };
 
-
-    //运用自执行函数判断status
-    $scope.btn_onLine = (function () {
+    //上下线
+    bootbox.setLocale("zh_CN");
+    $scope.btn_onLine = (function () {   //这是一个自执行函数
         if (this.x.status === 1) {
-            return '上线'
-        } else {
-            return '草稿'
+            return "上线";
+        }
+        if (this.x.status === 2) {
+            return "下线";
         }
     });
+    //上线
+    $scope.OnLine = function () {
+        var id = this.x.id;
+        $scope.status = this.x.status;
+        console.log($scope.status);
+        //上线
+        if ($scope.status === 1) {
+            bootbox.confirm({
+                title: '操作提示',
+                message: '上线后该图片将在轮播banner中展示',
+                buttons: {
+                    confirm: {
+                        label: '确定'
+                    },
+                    cancel: {
+                        label: '取消'
+                    }
+                },
+                callback: function (result) {
+                    if (result) {
+                        // bootbox.alert({
+                        //     title: "提示",
+                        //     message: "上线成功"
+                        // });
+                        $http({
+                            method: 'put', //转送方式
+                            url: '/carrots-admin-ajax/a/u/article/status?id=' + id + "&status=" + 2
+
+                        }).then(function (res) {
+                            console.log(res);
+                            $state.go($state.current, {}, {
+                                reload: true
+                            });
+                            // alert("上线成功");
+
+                        });
+
+                    }
+                }
+            });
+        }
+        //下线
+        else {
+            bootbox.confirm({
+                title: '操作提示',
+                message: '下线后该图片将不在轮播banner中展示',
+                buttons: {
+                    confirm: {
+                        label: '确定'
+                    },
+                    cancel: {
+                        label: '取消'
+                    }
+                },
+                callback: function (result) {
+                    if (result) {
+                        // alert('你点了确定');
+                        $http({
+                            method: 'put', //转送方式
+                            url: '/carrots-admin-ajax/a/u/article/status?id=' + id + "&status=" + 1
+
+
+                        }).then(function (res) {
+                            console.log(res);
+                            $state.go($state.current, {}, {
+                                reload: true
+                            });
+                        });
+                    }
+                }
+            })
+        }
+
+    };
+    //编辑
+    $scope.edit = function () {
+        $state.go('start.new',{
+                id : this.x.id
+            },{
+                reload:true
+            }
+        )
+    };
+
+    //跳转新增页面
+    $scope.addNew = function () {
+        $state.go("start.new", {
+            reload: true
+        });
+    };
+
+// 日历插件开始
 
 
 
-    // 日历插件开始
     $scope.inlineOptions = {
         // customClass: getDayClass,
         minDate: new Date(),
@@ -129,36 +275,35 @@ app.controller('article', function ($http, $scope, $state, $stateParams) {
     };
 // 日历插件结束
 
-
 });
 //自定义过滤器
-//类型type
-app.filter('type', function () {
+app.filter("status", function () {
     return function (a) {
-        if (a === 0) {
-            return '首页banner'
-        }
         if (a === 1) {
-            return '找职位banner'
+            return "草稿";
+
         }
         if (a === 2) {
-            return '找精英banner'
-        }
-        if (a === 3) {
-            return '行业大图'
+            return "上线";
         }
     }
 });
-//状态status
-app.filter('status', function () {
+app.filter("type", function () {
     return function (b) {
+        if (b === 0) {
+            return "首页banner"
+        }
         if (b === 1) {
-            return '草稿'
+            return "找职位banner"
         }
         if (b === 2) {
-            return '上线'
+            return "找精英banner"
+        }
+        if (b === 3) {
+            return "行业大图"
         }
     }
 });
+
 
 
